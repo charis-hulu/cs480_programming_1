@@ -88,7 +88,7 @@ Perform the following updates in the database:
 
 #### Task 1.5: Show all projects from the `AI Lab` department
 
-- Output columns: `project_id`, `project_title`, `department` 
+- Output columns: `project_id`, `project_title`, `department`.
 
 #### Task 1.6: Show all researchers who are `Postdoc`
 
@@ -96,26 +96,26 @@ Perform the following updates in the database:
 
 #### Task 1.7: Display each researcher’s `name` along with the `project_title` they are working on.
 
-- Output columns: `researcher_name`, `project_title`
+- Output columns: `researcher_name`, `project_title`.
 
 ## Task 2
 
 
 #### Task 2.1. Show the total number of citations for each venue.
 
-Output columns: `venue_name`, `total_citations`
+Output columns: `venue_name`, `total_citations`.
 
 
 #### Task 2.2. Show the average citations for each author.
 
-Output columns: `venue_name`, `total_citations`
+Output columns: `venue_name`, `total_citations`.
 
 
 #### Task 2.3. Show the sum of citations for all conference publications.
-Output columns: `conference_citations`
+Output columns: `conference_citations`.
 
 #### Task 2.4. Show the average citations for each venue type (Journal vs Conference).
-Output columns : `type`, `avg_citations`
+Output columns : `type`, `avg_citations`.
 
 
 #### Task 2.5. Show all authors whose total citations are greater than 150.
