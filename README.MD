@@ -1,6 +1,6 @@
 # Programming Assignment 1: SQL
 
-## Deadline: *XX*-th October, midnight (CST).
+## Deadline: *24*-th October, midnight (CST).
 
 ### Assignment guideline
 - This folder contains **3 SQL** files
@@ -30,7 +30,7 @@ For any questions, feel free to reach out.
 
 ## Task 1
 
-#### Task 1.1 – Create Tables
+#### Task 1.1 – Create Tables (5 points)
 Create two tables: **`projects`** and **`researchers`**.
 
 - **`projects`** table should include:
@@ -48,7 +48,7 @@ Create two tables: **`projects`** and **`researchers`**.
 
 ---
 
-#### Task 1.2: Insert Data
+#### Task 1.2: Insert Data (5 points)
 Insert the following data into the tables:
 
 **`projects` table:**
@@ -72,7 +72,7 @@ Insert the following data into the tables:
 | 6             | Frank | Assistant | 4          |
 
 
-#### Task 1.3: Update Operations
+#### Task 1.3: Update Operations (5 points)
 
 Perform the following updates in the database:
 
@@ -81,61 +81,60 @@ Perform the following updates in the database:
 - Change the `position` of researcher `Cara` from `Assistant` to `Senior Assistant` in the `researchers` table.
 
 
-#### Task 1.4: Delete Operations
+#### Task 1.4: Delete Operations (5 points)
 - Remove researcher `Alice` (`researcher_id = 1`) from the `researchers` table.
 
 - Remove project `Cryptography` (`project_id = 2`) from the `projects` table.
 
-#### Task 1.5: Show all projects from the `AI Lab` department
+#### Task 1.5: Show all projects from the `AI Lab` department (5 points)
 
 - Output columns: `project_id`, `project_title`, `department`.
 
-#### Task 1.6: Show all researchers who are `Postdoc`
+#### Task 1.6: Show all researchers who are `Postdoc` (5 points)
 
 - Output columns: `researcher_id`, `name` `position`, `project_id`.
 
-#### Task 1.7: Display each researcher’s `name` along with the `project_title` they are working on.
+#### Task 1.7: Display each researcher’s `name` along with the `project_title` they are working on. (5 points)
 
 - Output columns: `researcher_name`, `project_title`.
 
-## Task 2
+## Task 2 
 
 
-#### Task 2.1. Show the total number of citations for each venue.
-
-Output columns: `venue_name`, `total_citations`.
-
-
-#### Task 2.2. Show the average citations for each author.
+#### Task 2.1. Show the total number of citations for each venue. (5 points)
 
 Output columns: `venue_name`, `total_citations`.
 
 
-#### Task 2.3. Show the sum of citations for all conference publications.
+#### Task 2.2. Show the average citations for each author. (5 points)
+
+Output columns: `venue_name`, `total_citations`.
+
+
+#### Task 2.3. Show the sum of citations for all conference publications. (5 points)
 Output columns: `conference_citations`.
 
-#### Task 2.4. Show the average citations for each venue type (Journal vs Conference).
+#### Task 2.4. Show the average citations for each venue type (Journal vs Conference). (5 points)
 Output columns : `type`, `avg_citations`.
 
 
-#### Task 2.5. Show all authors whose total citations are greater than 150.
+#### Task 2.5. Show all authors whose total citations are greater than 150. (5 points)
 Output columns: `author`, `total_citations`.
 
 
 ## Task 3
 
-#### Task 3.1. Find all subordinates of Bo.
-
+#### Task 3.1. Find all subordinates of Bob. (5 points)
 - Write a recursive query to find all employees who report to Bob.
 - Include both direct and indirect reports.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`.
 
 
-#### Task 3.2 Find the chain of managers above Grace
+#### Task 3.2 Find the chain of managers above Grace. (5 points)
 - Write a recursive query to list all managers above Grace, up to the CEO.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`.
 
-#### Task 3.3 Assign levels relative to CEO
+#### Task 3.3 Assign levels relative to CEO. (5 points)
 - Write a recursive query to assign a level number to all employees relative to the CEO.
 - CEO should have `level = 0`.
 - Direct reports of CEO `level = 1`, and so on.
