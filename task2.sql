@@ -34,11 +34,11 @@ INSERT INTO Publication VALUES
 (6, 'Graph Networks', 2021, 4, 'Eve Miller', 110);
 
 
--- Task 2.1: Total citations per venue
+-- Task 2.1: Total citations per venue, ordered by venue_name in ascending order.
 
 
 
--- Task 2.2: Average citations per author
+-- Task 2.2: Average citations per author, ordered by venue_name in ascending order.
 
 
 
@@ -46,8 +46,8 @@ INSERT INTO Publication VALUES
 
 
 
--- Task 2.4 Average citations per venue type (Journal vs Conference)
+-- Task 2.4 Average citations per venue type (Journal vs Conference), ordered by venue type in ascending order.
 
 
 
--- Task 2.5 Authors with total citations above 150
+-- Task 2.5 Authors with total citations above 150, ordered by author in ascending order.

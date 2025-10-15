@@ -20,12 +20,12 @@ INSERT INTO Employee VALUES
 (7, 'Grace', 4, 'Intern');
 
 
--- Task 3.1: All subordinates of Bob
+-- Task 3.1: Find all subordinates of Bob, ordered by emp_id in ascending order.
 
 
 
--- Task 3.2: Chain of managers above Grace
+-- Task 3.2: Find the chain of managers above Grace, ordered by emp_id in ascending order
 
 
 
--- Task 3.3: Assign levels to all employees relative to CEO
+-- Task 3.3: Assign levels to all employees relative to CEO, ordered by level in ascending order.
