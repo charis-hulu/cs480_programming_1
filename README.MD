@@ -46,7 +46,7 @@ Create two tables: **`projects`** and **`researchers`**.
     - Use **`ON DELETE SET NULL`**
     - Use **`ON UPDATE CASCADE`**
 
----
+
 
 #### Task 1.2: Insert Data (5 points)
 Insert the following data into the tables:
