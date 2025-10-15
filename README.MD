@@ -30,7 +30,7 @@ For any questions, feel free to reach out.
 
 ## Task 1
 
-#### Task 1.1 – Create Tables (5 points)
+#### Task 1.1. Create Tables (5 points)
 Create two tables: **`projects`** and **`researchers`**.
 
 - **`projects`** table should include:
@@ -48,7 +48,7 @@ Create two tables: **`projects`** and **`researchers`**.
 
 
 
-#### Task 1.2: Insert Data (5 points)
+#### Task 1.2. Insert Data (5 points)
 Insert the following data into the tables:
 
 **`projects` table:**
@@ -72,7 +72,7 @@ Insert the following data into the tables:
 | 6             | Frank | Assistant | 4          |
 
 
-#### Task 1.3: Update Operations (5 points)
+#### Task 1.3. Update Operations (5 points)
 
 Perform the following updates in the database:
 
@@ -81,20 +81,20 @@ Perform the following updates in the database:
 - Change the `position` of researcher `Cara` from `Assistant` to `Senior Assistant` in the `researchers` table.
 
 
-#### Task 1.4: Delete Operations (5 points)
+#### Task 1.4. Delete Operations (5 points)
 - Remove researcher `Alice` (`researcher_id = 1`) from the `researchers` table.
 
 - Remove project `Cryptography` (`project_id = 2`) from the `projects` table.
 
-#### Task 1.5: Show all projects from the `AI Lab` department (5 points)
+#### Task 1.5. Show all projects from the `AI Lab` department (5 points)
 
 - Output columns: `project_id`, `project_title`, `department`.
 
-#### Task 1.6: Show all researchers who are `Postdoc` (5 points)
+#### Task 1.6. Show all researchers who are `Postdoc` (5 points)
 
 - Output columns: `researcher_id`, `name` `position`, `project_id`.
 
-#### Task 1.7: Display each researcher’s `name` along with the `project_title` they are working on. (5 points)
+#### Task 1.7. Display each researcher’s `name` along with the `project_title` they are working on. (5 points)
 
 - Output columns: `researcher_name`, `project_title`.
 
