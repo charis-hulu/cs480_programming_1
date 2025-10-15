@@ -46,7 +46,7 @@ Create two tables: **`projects`** and **`researchers`**.
     - Use **`ON UPDATE CASCADE`**
 
 
-#### Task 1.2. Insert Data
+#### Task 1.2. Insert Data (5 points)
 Insert the following data into the tables:
 
 **`projects` table:**
@@ -70,7 +70,7 @@ Insert the following data into the tables:
 | 6             | Frank | Assistant | 4          |
 
 
-#### Task 1.3. Update Operations
+#### Task 1.3. Update Operations (5 points)
 
 Perform the following updates in the database:
 
@@ -79,61 +79,61 @@ Perform the following updates in the database:
 - Change the `position` of researcher `Cara` from `Assistant` to `Senior Assistant` in the `researchers` table.
 
 
-#### Task 1.4. Delete Operations
+#### Task 1.4. Delete Operations (5 points)
 - Remove researcher `Alice` (`researcher_id = 1`) from the `researchers` table.
 
 - Remove project `Cryptography` (`project_id = 2`) from the `projects` table.
 
-#### Task 1.5. Show all projects from the `AI Lab` department, ordered by project_id in ascending order.
+#### Task 1.5. Show all projects from the `AI Lab` department, ordered by project_id in ascending order. (5 points)
 
 - Output columns: `project_id`, `project_title`, `department` 
 
-#### Task 1.6. Show all researchers who are `Postdoc`, ordered by researcher_id in ascending order.
+#### Task 1.6. Show all researchers who are `Postdoc`, ordered by researcher_id in ascending order. (5 points)
 
 - Output columns: `researcher_id`, `name` `position`, `project_id`.
 
-#### Task 1.7. Display each researcher’s `name` along with the `project_title` they are working on, ordered by researcher_name in ascending order.
+#### Task 1.7. Display each researcher’s `name` along with the `project_title` they are working on, ordered by researcher_name in ascending order. (5 points)
 
 - Output columns: `researcher_name`, `project_title`
 
 ## Task 2
 
 
-#### Task 2.1. Show the total number of citations for each venue, ordered by venue_name in ascending order.
+#### Task 2.1. Show the total number of citations for each venue, ordered by venue_name in ascending order. (7 points)
 
 Output columns: `venue_name`, `total_citations`
 
 
-#### Task 2.2. Show the average citations for each author, ordered by venue_name in ascending order.
+#### Task 2.2. Show the average citations for each author, ordered by venue_name in ascending order. (7 points)
 
 Output columns: `venue_name`, `avg_citations`
 
 
-#### Task 2.3. Show the sum of citations for all conference publications.
+#### Task 2.3. Show the sum of citations for all conference publications. (7 points)
 Output columns: `conference_citations`
 
-#### Task 2.4. Show the average citations for each venue type (Journal vs Conference), ordered by `type` in ascending order.
+#### Task 2.4. Show the average citations for each venue type (Journal vs Conference), ordered by `type` in ascending order. (7 points)
 Output columns : `type`, `avg_citations`
 
 
-#### Task 2.5. Show all authors whose total citations are greater than 150, ordered by `author` in ascending order.
+#### Task 2.5. Show all authors whose total citations are greater than 150, ordered by `author` in ascending order. (7 points)
 Output columns: `author`, `total_citations`.
 
 
 ## Task 3
 
-#### Task 3.1. Find all subordinates of Bob, ordered by `emp_id` in ascending order.
+#### Task 3.1. Find all subordinates of Bob, ordered by `emp_id` in ascending order. (10 points)
 
 - Write a recursive query to find all employees who report to Bob.
 - Include both direct and indirect reports.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`.
 
 
-#### Task 3.2 Find the chain of managers above Grace, ordered by `emp_id` in ascending order.
+#### Task 3.2 Find the chain of managers above Grace, ordered by `emp_id` in ascending order. (10 points)
 - Write a recursive query to list all managers above Grace, up to the CEO.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`.
 
-#### Task 3.3 Assign levels relative to CEO, ordered by `level` in ascending order.
+#### Task 3.3 Assign levels relative to CEO, ordered by `level` in ascending order. (10 points)
 - Write a recursive query to assign a level number to all employees relative to the CEO.
 - CEO should have `level = 0`.
 - Direct reports of CEO `level = 1`, and so on.
