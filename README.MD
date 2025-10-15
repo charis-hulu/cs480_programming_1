@@ -29,7 +29,7 @@ For any questions, feel free to reach out.
 
 ## Task 1
 
-#### Task 1.1. Create Tables
+#### Task 1.1. Create Tables (5 points)
 Create two tables: **`projects`** and **`researchers`**.
 
 - **`projects`** table should include:
