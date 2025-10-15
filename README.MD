@@ -11,7 +11,7 @@
 ...
 ```
 You have to implement *15 SQL queries** across the 3 SQL files.
-- Each query is worth *XX* points, totaling *YY* points. 
+- Each query is worth *5* points, totaling *75* points. 
 - **DO NOT MODIFY ANY DATA, DATABASE NAME OR TABLE STRUCTURES**
 - **COLUMN NAMES SHOULD EXACTLY MATCH THE `Output columns` MENTIONED IN EACH QUERY**
 - (Optional) You can import each SQL file to your local MySQL server:
@@ -23,7 +23,7 @@ mysql -u root -p < task3.sql
 
 ## Gradescope submission instructions
 - Submit the SQL files on Gradescope.
-- There are 15 test cases. For each test case, you will see `test_case_task_<TASK_NUMBER>_<PROBLEM_NUMBER> (test_SQL_Queries.TestFunctions) (XX/XX)` if it passes the testcase.   
+- There are 15 test cases. For each test case, you will see `test_case_task_<TASK_NUMBER>_<PROBLEM_NUMBER> (test_SQL_Queries.TestFunctions) (5.0/5.0)` if it passes the testcase.   
 - If you have Gradescope access issue, send a message with your First name, Last name, and UIC email address. We will add you manually.
 
 For any questions, feel free to reach out.
