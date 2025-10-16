@@ -1,6 +1,6 @@
 # Programming Assignment 1: SQL
 
-## Deadline: *24*-th October, midnight (CST).
+## Deadline: *26*-th October, midnight (CST).
 
 ### Assignment guideline
 - This folder contains **3 SQL** files
@@ -138,3 +138,4 @@ Output columns: `author`, `total_citations`.
 - CEO should have `level = 0`.
 - Direct reports of CEO `level = 1`, and so on.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`, `level`.
+
