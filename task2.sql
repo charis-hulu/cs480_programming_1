@@ -38,7 +38,7 @@ INSERT INTO Publication VALUES
 
 
 
--- Task 2.2: Average citations per author, ordered by venue_name in ascending order.
+-- Task 2.2: Average citations per author, ordered by author in ascending order.
 
 
 
@@ -51,3 +51,4 @@ INSERT INTO Publication VALUES
 
 
 -- Task 2.5 Authors with total citations above 150, ordered by author in ascending order.
+
