@@ -99,14 +99,14 @@ Perform the following updates in the database:
 ## Task 2
 
 
-#### Task 2.1. Show the total number of citations for each venue, ordered by venue_name in ascending order. (7 points)
+#### Task 2.1. Show the total number of citations for each venue, ordered by `venue_name` in ascending order. (7 points)
 
 Output columns: `venue_name`, `total_citations`
 
 
-#### Task 2.2. Show the average citations for each author, ordered by venue_name in ascending order. (7 points)
+#### Task 2.2. Show the average citations for each author, ordered by `author` in ascending order. (7 points)
 
-Output columns: `venue_name`, `avg_citations`
+Output columns: `author`, `avg_citations`
 
 
 #### Task 2.3. Show the sum of citations for all conference publications. (7 points)
@@ -138,4 +138,5 @@ Output columns: `author`, `total_citations`.
 - CEO should have `level = 0`.
 - Direct reports of CEO `level = 1`, and so on.
 - Output columns: `emp_id`, `name`, `manager_id`, `position`, `level`.
+
 
