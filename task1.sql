@@ -31,7 +31,7 @@ SELECT * FROM researchers ORDER BY researcher_id ASC;
 
 
 
--- Task 1.5: Show all projects from the Computer Science department, ordered by project_id in ascending order.
+-- Task 1.5: Show all projects from the AI Lab department, ordered by project_id in ascending order.
 
 
 
@@ -40,4 +40,5 @@ SELECT * FROM researchers ORDER BY researcher_id ASC;
 
 
 -- Task 1.7: Show the name of each researcher along with their project title, ordered by researcher_name in ascending order.
+
 
